@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kenjxli.cachelibsample" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GridActivity3"
+            android:label="@string/title_activity_grid_activity3" >
+        </activity>
+        <activity
+            android:name=".GridActivity2"
+            android:label="@string/title_activity_grid_activity2" >
+        </activity>
+        <activity
+            android:name=".GridActivity1"
+            android:label="@string/title_activity_grid_activity1" >
+        </activity>
+    </application>
+
+</manifest>

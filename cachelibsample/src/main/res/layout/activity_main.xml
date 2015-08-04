@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/nocache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="no cache" />
+
+    <Button
+        android:id="@+id/memory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="memory cache" />
+
+    <Button
+        android:id="@+id/memory_disck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="memory and disk cache" />
+
+</LinearLayout>

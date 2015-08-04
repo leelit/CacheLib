@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CachelibSample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_grid_activtiy3">GridActivtiy3</string>
+    <string name="title_activity_grid_activity3">GridActivity3</string>
+    <string name="title_activity_grid_activity2">GridActivity2</string>
+    <string name="title_activity_grid_activity1">GridActivity1</string>
+</resources>
