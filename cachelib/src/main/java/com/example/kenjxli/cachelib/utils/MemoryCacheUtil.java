@@ -1,10 +1,8 @@
 package com.example.kenjxli.cachelib.utils;
 
 import android.graphics.Bitmap;
-import android.util.Log;
 
 import com.example.kenjxli.cachelib.memory.MemoryCache;
-import com.example.kenjxli.cachelib.memory.impl.LruMemoryCache;
 
 /**
  * Created by kenjxli on 2015/7/28.
@@ -65,4 +63,9 @@ public class MemoryCacheUtil {
         util = null;
     }
 
+    /*
+    public boolean isContainKey(String url) {
+        return cache.isContainKey();
+    }
+    */
 }

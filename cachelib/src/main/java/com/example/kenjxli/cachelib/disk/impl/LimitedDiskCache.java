@@ -38,7 +38,7 @@ public abstract class LimitedDiskCache extends BaseDiskCache {
         boolean result = super.put(url, inputStream);
         if (result) {
             synchronized (LimitedMemoryCache.class) {
-                if (getCurrentSize() > CACHE_SIZE) {
+                while (getCurrentSize() > CACHE_SIZE) {
                     String removeFilePath = nextRemoveFilePath();
                     File deleteFile = new File(removeFilePath);
                     deleteFile.delete();

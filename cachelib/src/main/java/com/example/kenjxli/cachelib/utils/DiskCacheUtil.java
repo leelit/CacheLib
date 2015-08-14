@@ -15,7 +15,7 @@ import java.io.InputStream;
  * Created by kenjxli on 2015/7/28.
  */
 public class DiskCacheUtil {
-    private static final long CACHE_SIZE = 10 * 1024 * 1024;
+    private static final long CACHE_SIZE = 300 * 1024;
 
     private DiskCache diskCache;
     private static DiskCacheUtil util;

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\kenjxli\Desktop\CacheLib-master\cachelib-net-sample\build\intermediates\exploded-aar\CacheLib-master\cachelib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ff11615bde9449a775e89433460e171352688800">
+        <dex dex="C:\Users\kenjxli\Desktop\CacheLib-master\cachelib-net-sample\build\intermediates\pre-dexed\debug\classes-6d98af4c431d3cfea2df8a39f47e03be1405e441.jar" />
+    </item>
+
+</items>
