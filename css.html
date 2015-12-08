@@ -5,10 +5,10 @@
 		<title>css</title>
 		<link rel="stylesheet" href="css/global.css">
 		<style>
-		p.csstag{
+		p.css元素{
 			color: gray;
 		}
-		.csstag1{
+		.css元素1{
 			color: yellow;
 			
 		}
@@ -23,6 +23,9 @@
 		ul{
 			font-style: italic;
 		}
+		#myh1{
+			color: white;
+		}
 		</style>
 	</head>
 	
@@ -32,16 +35,18 @@
 		
 		<h2>例子</h2>
 		<p>slectorName.className</p>
-		<p class="csstag">这是一段通过class来找到tag的demo</p>
-		<p>通过class来找到tag，然后css处理</p>
+		<p class="css元素">这是一段通过class来找到元素的demo</p>
+		<p>通过class来找到元素，然后css处理</p>
 		
 		<br>
 
-		<h1 class="csstag1">影响所有class的标签</h1>
-		<p class="csstag1">影响所有class的标签</p>
+		<h1 class="css元素1">影响所有class的标签</h1>
+		<p class="css元素1">影响所有class的标签</p>
 		
+		<h1 id="myh1">通过ID找到元素</h1>
 		<h2>小结一个</h2>
 		<ul>
+		<li>可以通过selector#id找到唯一元素，id唯一时可以省略selector</li>
 		<li>可以通过selector.class{}选择所有元素#class的元素</li>
 		<li>可以通过selector{}选择所有元素</li>
 		<li>可以通过.class选择所有有class的元素</li>
