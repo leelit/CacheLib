@@ -76,6 +76,9 @@
 				border: 1px dotted red;
 				display: table-cell;
 			}
+			ul{
+				margin-bottom: 100px;
+			}
 		</style>
 	</head>
 	
@@ -89,29 +92,16 @@
 		<p>浮动元素必须制定width，否则width填充，咋float起来呢？float因为没有横向而生。</p>
 		<p class="tag3"><span class="floattag">tag3</span><br>margin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50px</p>
 		<p class="tag4">tag4<br>tag3的margin，tag4的内容不会压过去。<br>margin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100px</p>
-		<p class="tag5"><span class="statetag">clear属性使得不会在float元素上面压过</span><br>margin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50px</p>
-		<p class="tag6"><span class="statetag">上面的marginbottom对这里也奏效</span><br>margin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50px</p>
+		<p class="tag5"><span class="statetag">tag5<br>clear属性使得不会在float元素上面压过</span><br>margin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50px</p>
+		<p class="tag6"><span class="statetag">tag6<br>上面的marginbottom对这里也奏效</span><br>margin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50px</p>
 		
-		<h2>other topics</h2>
 
-		
-		<p>目前为止有几种布局方式</p>
-		<ul>
-			<li>float布局</li>
-			<li>冻结布局，其实就是设定一个width固定宽度</li>
-			<li>凝胶布局，其实就是在上诉的基础上<a href="automargin.html" target="_blank">automargin</a></li>
-			<li>绝对布局，position属性absolute，同样和float的一样会从载入流中删除，和float不同，别人不会绕过他，感觉这有点像android的absoluteLayout，又一个没啥用的东西...</li>
-			<li>固定定位，position属性fixed，与上面不同，这个是相对浏览器窗口的。</li>
-			<li>相对定位，position属性relative</li>
-			<li>表格布局，通过div元素以及css的display属性来实现</li>
-		</ul>
 		
 		<p class="tag6 tag7">tag7 absolute position<br>margin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50px</p>
 		<p class="tag6 tag8">tag8 fixed position</p>
 		
 		
-	<h2>css表格</h2>
-	
+		<h2>css表格</h2>
 		<div id="tableContainer">
 			<div id="tableRow">
 				<div id="main">
@@ -134,10 +124,22 @@
 		</div>
 		
 		<div>
-			<p>随便看看</p>
+			<p>相对布局postion: relative</p>
 			<p class="tag6 tag9">tag9 relative position</p>
 		</div>
 		
+		
+		<h2>总结</h2>
+		<p><strong>目前为止有几种布局方式：</strong></p>
+		<ul>
+			<li>float布局</li>
+			<li>冻结布局，其实就是设定一个width固定宽度</li>
+			<li>凝胶布局，其实就是在上诉的基础上<a href="automargin.html" target="_blank">automargin</a></li>
+			<li>绝对布局，position属性absolute，同样和float的一样会从载入流中删除，和float不同，别人不会绕过他。</li>
+			<li>固定定位，position属性fixed，与上面不同，这个是相对浏览器窗口的。</li>
+			<li>相对定位，position属性relative</li>
+			<li>表格布局，通过div元素以及css的display属性来实现，均匀分布</li>
+		</ul>
 	</body>
 
 </html>
