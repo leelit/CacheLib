@@ -1,0 +1,100 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="css/global.css">
+		<style>
+			#divfirst{
+				background-color: green;
+			}
+			#divsecond{
+				background-color: gray;
+			}
+			#divholder{
+				padding: 20px;
+				border: 1px dotted black;
+				/*
+					border-width: ;
+					border-style: ;
+					border:color: ;
+				*/
+				text-align: center;
+				/*
+				background-image: url(images/ken.jpg);
+				background-repeat: no-repeat;
+				*/
+				background: url(images/ken.jpg) repeat-x;
+				
+			}
+			h2{
+				color: white;
+			}
+			#divholder h2{
+				color: black;	
+			}
+			li{
+				color: green;
+			}
+			a:link{
+				color: green;
+			}
+			a:visited{
+				color: red;
+			}
+			a:hover{
+				color: yellow;
+			}
+			#divholder a:link{
+				color: white
+			}
+			
+			.spanfirst{
+				color: purple;
+			}
+			.spansecond{
+				color: yellow;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h2>div理解</h2>
+		<p>啧啧啧，div有点layout布局的意思，中文翻译貌似是容器</p>
+		<div id="divholder">
+			<div id="divfirst">
+			<h2>来div一个</h2>
+				<p>
+					这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，
+					这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，
+					这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话。
+				</p>
+			</div>
+			
+			<div id="divsecond">
+				<h2>来div两个</h2>
+				<p>
+					这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，
+					这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，
+					这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话，这里超级多的屁话。
+				</p>
+			</div>
+			
+			<a href="box.html">wtf</a>
+			
+		</div>
+		
+		<h2>span理解</h2>
+		<p>span跟div差不多啦，只是应用在内联上，使用div用以id，span用以class</p>
+		<ul>
+			<li><span class="spanfirst">span1</span><span class="spansecond">span2</span></li>
+			<li>item1</li>
+			<li>item2</li>
+			<li>item3</li>
+		</ul>
+		
+		<h2>a的css</h2>
+		<a href="index.html" title="title">看看咯</a>
+		
+	</body>
+
+</html>
