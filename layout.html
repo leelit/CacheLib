@@ -1,0 +1,84 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="css/global.css">
+		<style>
+			.tag1{
+				margin-left: 50px;
+				border: 1px solid yellow;
+			}
+			.tag2{
+				margin-left: 100px;
+				border: 1px solid red;
+			}
+			.tag3{
+				margin-left: 100px;
+				border: 1px solid yellow;
+				width: 200px;
+				padding-left: 50px;
+				float: right;
+				background-color: red;
+			}
+			.tag4{
+				margin-right: 250px;
+				border: 1px solid red;
+				background-color: yellow;
+			}
+			.tag5{
+				border: 1px solid purple;
+				background-color: green;
+				clear: right;	
+				margin-bottom: 50px;
+			}
+			.tag6{
+				border: 1px solid purple;
+				background-color: green;
+				clear: right;	
+				margin-top: 0px;
+			}
+			.tag7{
+				position: absolute;
+				top: 150px;
+				right: 0px;
+				width: 300px;
+			}
+			.floattag{
+				float: right;
+			}
+			.statetag{
+				color: white;
+			}
+		</style>
+	</head>
+	
+	<body>
+
+		<h2>纵向</h2>
+		<p class="tag1">margin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50px</p>
+		<p class="tag2">margin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100px</p>
+		
+		<h2>横向</h2>
+		<p>浮动元素必须制定width，否则width填充，咋float起来呢？float因为没有横向而生。</p>
+		<p class="tag3"><span class="floattag">tag3</span><br>margin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50px</p>
+		<p class="tag4">tag4<br>tag3的margin，tag4的内容不会压过去。<br>margin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100pxmargin-left:100px</p>
+		<p class="tag5"><span class="statetag">clear属性使得不会在float元素上面压过</span><br>margin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50px</p>
+		<p class="tag6"><span class="statetag">上面的marginbottom对这里也奏效</span><br>margin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50px</p>
+		
+		<h2>other topics</h2>
+
+		
+		<p>目前为止有几种布局方式</p>
+		<ul>
+			<li>float布局</li>
+			<li>冻结布局，其实就是设定一个width</li>
+			<li>凝胶布局，其实就是在上诉的基础上<a href="automargin.html" target="_blank">automargin</a></li>
+			<li>绝对布局，同样和float的一样会从载入流中删除，和float不同，别人不会绕过他，感觉这有点像android的absoluteLayout，又一个没啥用的东西...</li>
+		</ul>
+		
+		<p class="tag6 tag7">tag7 absolute position<br>margin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50pxmargin-left:50px</p>
+
+	
+	</body>
+
+</html>
