@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="css/global.css">
+		<style>
+			ul{
+				background: #efe5d0;
+				margin: 10px 10px 0px 10px;
+				left-style-type: none;
+				padding: 5px 0px 5px 5px;
+			}
+			ul li{
+				display: inline;
+				padding: 5px 10px 5px 10px;
+			}
+			ul li a:link, ul li a:visited{
+				color: #984b4b;
+				border-bottom: none;
+				font-weight: bold;
+			}
+			ul li.selected{
+				background: #c8b99c;
+			}
+			
+			.audioTag{
+				position: fixed;
+				right: 0px;
+				top: 0px;
+			}
+		</style>
+	</head>
+		
+	<body>
+	
+		<ul>
+			<li class="selected"<a href="index.html">Home</a></li>
+			<li><a href="index.html">Bolg</a></li>
+			<li><a href="index.html">About</a></li>
+		</ul>
+	
+		<header>
+			<img id="headerLogo" src="images/ken.jpg" alt="altattr"></img>
+			<time datetime="2012-02-18">2/18/2012</time>
+		</header>
+		
+		<footer>
+			&copy; 2012, kenjxli
+			<br>
+			All rights reserved;
+		</footer>
+		
+		<h1>标题</h1>
+		<p>
+			好好干
+		</p>
+		
+		<!-- attr: autoplay -->
+		<!-- <video controls width="512" height="288" src="video/test.mp4"></video>  -->
+		<audio class="audioTag"  controls src="video/test1.mp3"></video>
+
+	</body>
+
+</html>
