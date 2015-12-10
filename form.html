@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="css/global.css">
+		<style>
+		th{
+			text-align: left;
+		}
+		tr td{
+			padding-left: 10px;
+		}
+		#tableRow{
+			display: table-row;
+		}
+		#tableCell{
+			display: table-cell;
+		}
+		.divtable{
+			padding-left: 10px;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<form action="http://www.baidu.com">
+			<p>
+				Type you name<br>
+				<div>
+					<div id="tableRow">
+						<div id="tableCell">First name:</div><div id="tableCell" class="divtable"><input type="text" name="username" placeholder="username"></div>
+					</div>
+					<div id="tableRow">
+						<div id="tableCell">Last:</div><div id="tableCell" class="divtable"><input type="password" name="password" placeholder="password"></div>
+					</div>
+				</div>
+				
+				<input type="radio" name="a" value="呵呵" checked>呵呵<br>
+				<input type="radio" name="a" value="哈哈">哈哈<br>
+				<br>
+				
+				<input type="checkbox" name="b" value="ken" checked>ken<br>
+				<input type="checkbox" name="b" value="lina">lina<br>
+				<input type="checkbox" name="b" value="jack">jack<br>
+				<br>
+				 
+				<input type="number" name="number" min="0" max="60" value="1">
+				<br>
+				<input type="range" name="range" min="0" max="60" step="10" value="0">
+				<br>
+				<input type="date" name="date" required>
+				<input type="email" name="email">
+				<input type="tel" name="tel">
+				<input type="url" name="url">
+				
+				<textarea name="comments" rows="3" cols="48">ok</textarea>
+				<br>
+				
+				<select name="spinner"> 
+					<option value="ken">ken</option>
+					<option value="lina">lina</option>
+					<option value="jack">jack</option>
+				</select>
+				
+				<br></br>
+				
+				<input type="submit" value="提交吧"><br>
+
+			</p>
+		</form>
+		
+		<h2>input-type</h2>
+		<ul>
+			<li>text</li>
+			<li>password</li>
+			<li>file</li>
+			<li>radio</li>
+			<li>checkbox</li>
+			<li>number</li>
+			<li>email</li>
+			<li>select</li>
+			<li>...</li>
+			<li>submit</li>
+		</ul>
+		<h2>小结</h2>
+		<ul>
+			<li>input是void元素</li>
+			<li>type指定类型</li>
+			<li>name表单的key</li>
+			<li>value表单的值</li>
+			<li>placeholder提示</li>
+			<li>required必须值</li>
+		</ul>
+		
+		<p><strong>利用CSS表格布局可以把上面整成比较漂亮的表单</strong></p>
+	</body>
+
+</html>
