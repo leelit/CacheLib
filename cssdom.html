@@ -1,0 +1,63 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="css/global.css">
+		<style>
+			table{
+				border: 1px solid #669; 
+				border-collapse: collapse;
+			}
+			th, td{
+				border: 1px solid #669; 
+				padding: 0.5em;
+				width: 100px;
+				text-align: left;
+			}
+			th{
+				font-style: italic;
+				background: #9cc;
+			}
+			.intro{
+				font-weight: bold;
+				font-size: 1.2em;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<p>一般而言优先使用CSS来设置样式，但是某些场景难以使用选择器，此时JS派上用场。</p>
+		<h1>header1</h1>
+		<p>paragraph1...</p>
+		<p>paragraph2...</p>
+		<h1>header2</h1>
+		<p>paragraph1...</p>
+		<p>paragraph2...</p>
+		<h1>header3</h1>
+		<p>paragraph1...</p>
+		<p>paragraph2...</p>
+		<hr />
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Sex</th>
+			</tr>
+			<tr>
+				<td>Ken</td>
+				<td>Man</td>
+			</tr>
+			<tr>
+				<td>Jack</td>
+				<td>Man</td>
+			</tr>
+			<tr>
+				<td>Lina</td>
+				<td>Woman</td>
+			</tr>
+		</table>
+		
+		<script src="script/cssdom.js"></script>
+	</body>
+
+</html>
